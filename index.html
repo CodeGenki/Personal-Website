@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Genki Oji</title>
+	<h1>Genki Oji</h1> <!--This will be in nixie tubes-->
+	<img height=25% width=25% src="images/Genki.png">
+	<button id="button" type="button" onclick="myFunction()">Lights off!</button>
+	<p>I like to try new things and have fun. Programming has helped me do what I like. So far, I've worked on things to do with robotics and desktop applications, and I'm looking to keep learning by doing.</p>
+</head>
+<body>
+	<h2>About Me</h2>
+	<p>I'm a 3rd year Computer Engineering student at the University of Texas at Austin focusing on software design. </p>
+	<h2>What I Do</h2>
+	<p>As a student, I've enjoyed tinkering with microcontrollers in embedded systems courses and making functional and useful software applications with popular programming languages. I participate in hackathons where I get to challenge myself and try new things with a team of awesome people who I may or may not know.</p>
+	<h2>Skills</h2>
+	<ul>
+		<li>Java</li>
+		<li>C++</li>
+		<li>C#</li>
+		<li>C</li>
+		<li>Assembly Language</li>
+		<li>Git</li>
+		<li>MATLAB</li>
+		<li>LabVIEW</li>
+		<li>HTML</li>
+		<li>Javascript</li>
+	</ul>
+	<h2>Resume</h2>
+	<a href="#">Resume PDF</a>
+	<h2>Check out what I've done!</h2>
+	<a href="https://github.com/CodeGenki">Github</a>
+	<h2>LinkedIn</h2>
+</body>
+</html>
+
+<script type="text/javascript">
+	function myFunction()
+	{
+		if(document.body.style.backgroundColor=="black")
+		{
+			document.body.style.backgroundColor="white";
+			document.getElementById("button").innerHTML="Lights off!";
+		}
+		else
+		{
+			document.body.style.backgroundColor="black";
+			document.getElementById("button").innerHTML="Lights on!";
+		}
+	}
+</script>
